@@ -1,42 +1,22 @@
-# Vite-Template
-This is a stand alone React application created using Vite, Typescript, React, Mobx,and Material UI. 
+# AI Article Summerizer - Client
+The client contruction for a `Dalle` like clone. 
 
+## View It Live
+If you just want to view and play with the application, you can do so [here](https://www.azcraftscode.com).
 
 ## Getting Started
 Inside the project directory run:
 ```
-$ yarn install
-$ yarn run start
+$ npm install
+$ npm start
 ```
 by default the application will run on `localhost:5173`.
 
-### Formatting your code
-To format your code, simply run:
-```
-$ yarn run format
-```
-
-## Development Dependencies
-
-### System/Environment
+### Project Requirements
 * [NPM](https://www.npmjs.com/)
 * [Node](https://nodejs.org/en/)
-* [Yarn](https://yarnpkg.com//)
 * [Vite](https://vitejs.dev/)
 
-### Coding Frameworks
-* [React](https://reactjs.org/)
-* [ESLint](https://eslint.org/)
-* [Typescript](https://www.typescriptlang.org/)
 
-### Design Frameworks
-* [Material UI](https://mui.com/)
-* [Material Icons](https://mui.com/material-ui/material-icons/)
-
-### Form Handling and Validation
-* [Formik](https://formik.org/)
-* [Yup](https://github.com/jquense/yup)
-
-### State Management
-* [Mobx](https://mobx.js.org/)
-* [Mobx-State-Tree](https://mobx.js.org/)
+## Project Reference
+This project has an occompaning [server application](https://www.azcraftscode.com) that you'll need in order to fully engage with the application. 
