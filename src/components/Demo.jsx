@@ -30,8 +30,12 @@ const Demo = () => {
 
     if (data?.summary) {
       const newArticle = { ...article, summary: data.summary }
+      const updatedAllArticles = [newArticle, ...allArticles]
 
       setArticle(newArticle)
+      setAllArticles(updatedAllArticles)
+
+      localStorage.setItem('articles', JSON.stringify(updatedAllArticles))
     }
   }
 
@@ -64,6 +68,16 @@ const Demo = () => {
 
         {/* browse url history */}
 
+      </div>
+      <div className="flex flex-col gap-1 max-h-60 overflow-y-auto">
+        {allArticles.map((item, index) => (
+          <div
+            key={`link-${index}`}
+            onClick={() => setArticle(item)}
+            className="link_card"
+          >
+          </div>
+        ))}
       </div>
 
       {/* display results */}
