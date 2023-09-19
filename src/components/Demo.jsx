@@ -82,6 +82,9 @@ const Demo = () => {
                   alt="copy_icon"
                   className="w-[40%] h-[40%] coject-contain" />
               </div>
+              <p>
+                {item.url}
+              </p>
             </div>
           ))}
         </div>
